@@ -56,7 +56,7 @@ export default {
       span {
         display: block;
         min-width: vw(160);
-        font-size: vw(24);
+        font-size: vw(22);
       }
 
       img {

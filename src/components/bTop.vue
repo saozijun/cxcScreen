@@ -1,6 +1,6 @@
 <template>
   <div class="top-main">
-    <div class="title">大交通监测系统</div>
+    <div class="title">业务质量监测系统</div>
     <div class="meun">
       <div v-for="(item, index) in list" :class="{ 'active': index == lIndex }" @click="lIndex = index" :key="item.name">
         <span>{{ item.name }}</span>
